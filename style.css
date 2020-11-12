@@ -1,3 +1,8 @@
+body {
+   background-color: #0F0034;
+   color: white;
+}
+
 /* Navbar */
 .navbar {
    position: relative;
@@ -9,15 +14,43 @@
    font-size: 32px;
 }
 
+.navbar-brand,
+.nav-link {
+   color: white !important;
+}
+
 /* Utility */
 .tombol {
    text-transform: uppercase;
    border-radius: 40px;
+   color: white;
+   background-color: #7C0DBE;
+}
+
+.tombol:hover {
+   color: white;
+   background-color: #02A1FE;
+}
+
+.btnav {
+   border-radius: 40px;
+   color: black !important;
+   background-color: #20E0F0;
+}
+
+.btnav:hover {
+   color: white !important;
+   background-color: #02A1FE;
+}
+
+.navbar-toggler {
+   background-color: #20E0F0 !important;
 }
 
 /* Jumbotron */
 .jumbotron {
-   background-image: url(img/jumbotron-bg.jpg);
+   /* background-image: url(img/jumbotron-bg.jpg); */
+   background-image: linear-gradient(to right, #C12DD1 0%, #6D8CF8 100%);
    background-size: cover;
    height: 540px;
    text-align: center;
@@ -34,7 +67,7 @@
    display: block;
    width: 100%;
    height: 80%;
-   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+   /* background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
    position: absolute;
    bottom: 0;
 }
@@ -43,7 +76,6 @@
    color: white;
    margin-top: 150px;
    font-weight: 200;
-   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
    font-size: 40px;
    margin-bottom: 30px;
 }
@@ -57,7 +89,7 @@
    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
    border-radius: 12px;
    margin-top: -100px;
-   background-color: white;
+   background-color: #24144A;
    padding: 35px;
 }
 
@@ -130,7 +162,6 @@
    font-size: 16px;
    font-weight: bold;
    font-style: normal;
-   color: #1C2C5D;
 }
 
 .testimonial figure p {
@@ -155,12 +186,6 @@
 /* Desktop Version */
 @media (min-width: 992px) {
 
-   .navbar-brand,
-   .nav-link {
-      color: white !important;
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-   }
-
    .nav-link {
       text-transform: uppercase;
       margin-left: 30px;
@@ -169,7 +194,7 @@
    .nav-item:hover::after {
       content: '';
       display: block;
-      border-bottom: 3px solid #0B63DC;
+      border-bottom: 3px solid #20E0F0;
       width: 50%;
       margin: auto;
       padding-bottom: 5px;
@@ -200,12 +225,22 @@
    }
 
    .navbar.scrolled {
-      background: #000 !important;
+      background: #9C00E2 !important;
    }
 
    .navbar.scrolled .nav-link {
       color: white !important;
       text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+   }
+
+   .navbar.scrolled .btn {
+      background-color: #20E0F0;
+      color: black !important;
+   }
+
+   .navbar.scrolled .btn:hover {
+      background-color: #02A1FE;
+      color: white !important;
    }
 
 }
