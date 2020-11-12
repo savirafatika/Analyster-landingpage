@@ -158,7 +158,7 @@
    .navbar-brand,
    .nav-link {
       color: white !important;
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
    }
 
    .nav-link {
@@ -192,4 +192,20 @@
    .testimonial h5 {
       font-size: 32px;
    }
+
+   #navbarku {
+      position: fixed;
+      width: 100%;
+      top: 0;
+   }
+
+   .navbar.scrolled {
+      background: #000 !important;
+   }
+
+   .navbar.scrolled .nav-link {
+      color: white !important;
+      text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+   }
+
 }
