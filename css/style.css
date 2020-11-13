@@ -53,10 +53,10 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-   /* background-image: url(img/jumbotron-bg.jpg); */
-   background-image: linear-gradient(to right, #C12DD1 0%, #6D8CF8 100%);
+   /* background-image: linear-gradient(to right, #C12DD1 0%, #6D8CF8 100%); */
+   background-image: url('../img/back.png');
    background-size: cover;
-   height: 540px;
+   height: 550px;
    text-align: center;
    position: relative;
 }
@@ -85,7 +85,7 @@ body {
 
 .jumbotron .display-4 span {
    font-weight: 900 !important;
-   color: whitesmoke;
+   color: white;
    text-transform: capitalize;
    text-shadow: 7px -8px #20E0F0;
 }
@@ -211,8 +211,7 @@ body {
    }
 
    .jumbotron {
-      margin-top: -75px;
-      height: 640px;
+      height: 710px;
    }
 
    .jumbotron .display-4 {
@@ -239,6 +238,7 @@ body {
 
    .navbar.scrolled {
       background: #9C00E2 !important;
+      transition: all 1s;
    }
 
    .navbar.scrolled .nav-item {
