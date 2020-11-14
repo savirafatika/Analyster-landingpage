@@ -78,7 +78,7 @@ body {
 
 .jumbotron .display-4 {
    font-size: 40px;
-   margin-top: 150px;
+   margin-top: 200px;
    margin-bottom: 30px;
    font-weight: normal !important;
 }
@@ -125,12 +125,14 @@ body {
 .workingspace h3 {
    font-size: 52px;
    font-weight: 200;
-   text-transform: uppercase;
+   text-transform: capitalize;
    margin-top: 30px;
 }
 
 .workingspace h3 span {
-   font-weight: 500;
+   font-weight: 900;
+   text-transform: uppercase;
+   text-shadow: 4px -12px #7C0DBE;
 }
 
 .workingspace p {
@@ -211,7 +213,7 @@ body {
    }
 
    .jumbotron {
-      height: 710px;
+      height: 750px;
    }
 
    .jumbotron .display-4 {
