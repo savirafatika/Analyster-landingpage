@@ -408,6 +408,17 @@ main .post-content .post-title a {
    color: var(--white);
 }
 
+.site-content .sidebar .popular-tags {
+   padding: 5rem 0;
+}
+
+.site-content .sidebar .popular-tags .tags .tag {
+   background: #7C0DBE;
+   padding: .3rem 1rem;
+   border-radius: 3rem;
+   margin: .3rem .3rem;
+}
+
 /* -------x-------- Site Content --------x-------*/
 
 
