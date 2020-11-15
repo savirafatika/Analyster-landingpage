@@ -33,18 +33,10 @@ body {
    overflow-x: hidden;
 }
 
-a {
-   text-decoration: none;
-}
-
 .flex-row {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-}
-
-ul {
-   list-style-type: none;
 }
 
 #navbarku {
@@ -203,7 +195,7 @@ ul {
    text-align: center;
    font-weight: 200;
    font-style: italic;
-   font-size: 24px;
+   font-size: 22px;
 }
 
 .testimonial figure img {
@@ -222,6 +214,7 @@ ul {
    font-size: 16px;
    font-weight: bold;
    font-style: normal;
+   color: #FF00D6;
 }
 
 .testimonial figure p {
@@ -360,16 +353,12 @@ main .site-content .post-content>.post-image .post-info {
    padding: 1rem;
    position: absolute;
    bottom: 0%;
-   left: 20vw;
+   left: 30vw;
    border-radius: 3rem;
 }
 
 main .site-content .post-content>.post-image>div {
    overflow: hidden;
-}
-
-.site-content .post-content>.post-image .post-info {
-   display: none;
 }
 
 main .site-content .post-content>.post-image .img {
@@ -386,7 +375,6 @@ main .site-content .post-content>.post-image .post-info span {
 }
 
 main .post-content .post-title a {
-   font-family: var(--Anton);
    font-size: 1.5rem;
 }
 
@@ -434,7 +422,7 @@ main .post-content .post-title a {
    padding: .4rem 1rem;
    margin: .8rem 0;
    border-radius: 3rem;
-   width: 100%;
+   width: 90%;
    display: flex;
    justify-content: space-between;
 }
@@ -515,7 +503,7 @@ main .post-content .post-title a {
    }
 
    .testimonial h5 {
-      font-size: 32px;
+      font-size: 28px;
    }
 
    .navbar.scrolled .nav-item {
@@ -540,7 +528,11 @@ main .post-content .post-title a {
    }
 
    .site-content>.sidebar .category-list .list-items {
-      width: 75%;
+      width: 85%;
+   }
+
+   main .site-content .post-content>.post-image .post-info {
+      left: 20vw;
    }
 
 }
